@@ -857,7 +857,7 @@ _______________________________________________________*/
 
 /* About-part section start */
 .about-part {
-	background: #465B55;
+	background: #192B25;
 	overflow: hidden;
 }
 .aboutus-detail {
@@ -1075,7 +1075,7 @@ _______________________________________________________*/
 
 /* Our Team css strat */
 .team-part {
-	background: url(../images/team-bg.png) no-repeat scroll center center #465B55;
+	background: url(../images/team-bg.png) no-repeat scroll center center #192B25;
 }
 
 .team-box {
@@ -1249,7 +1249,7 @@ _______________________________________________________*/
 
 /* Contact css start */
 .contact-part {
-	background: url(../images/contact-bg.png) no-repeat scroll 0 0 #465B55;
+	background: url(../images/contact-bg.png) no-repeat scroll 0 0 #192B25;
 }
 .contact-box {
 	color: #fff;
