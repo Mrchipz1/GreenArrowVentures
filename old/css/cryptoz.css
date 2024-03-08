@@ -37,7 +37,14 @@
 _______________________________________________________*/
 
 /* - Google Fonts //---------------- */
-@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,700&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Rubik:300,400,700&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body {
+    font-family: "Chakra Petch", sans-serif;;
+}
+
 
 
 /* - General Style //---------------- */
@@ -64,8 +71,8 @@ body {
 	background: #192B25;
 	line-height: 24px;
 	color: #fff;
-	font-size: 14px;
-	font-family: 'Rubik', sans-serif;
+	font-size: 18px;
+	font-family: "Chakra Petch", sans-serif;;
 	font-weight: 400;
 	letter-spacing: 0px;
 }
@@ -315,11 +322,11 @@ h6 {
 
 .btn-color:hover {
 	color: #fff !important;
-	background: #465B55;
+	background: #1E453E;
 }
 
 .btn-white {
-	color: #465B55;
+	color: #1E453E;
 	background: rgba(255,255,255,1);
 	border: none;
 }
@@ -668,7 +675,7 @@ _______________________________________________________*/
 }
 
 .main-banner{
-	background: url(../images/background-img.jpg) no-repeat scroll 0 0;
+	background: url(../images/Bg1.jpeg) no-repeat scroll 0 0;
 	position: relative;
 	overflow: hidden;
 }
@@ -761,7 +768,7 @@ _______________________________________________________*/
 }
 
 .services-box .frontend {
-	background: #465B55;
+	background: #1E453E;
     padding: 30px;
 	-webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -788,7 +795,7 @@ _______________________________________________________*/
 }
 
 .services-box .backend {
-	background: #465B55;
+	background: #1E453E;
     padding: 30px;
     position: absolute;
     top: 0;
@@ -857,7 +864,7 @@ _______________________________________________________*/
 
 /* About-part section start */
 .about-part {
-	background: #465B55;
+	background: #192B25;
 	overflow: hidden;
 }
 .aboutus-detail {
@@ -898,7 +905,7 @@ _______________________________________________________*/
 
 /* tokensale-part start */
 .tokensale-part {
-	background: url(../images/token-sale-bg.png) no-repeat scroll center 0 #465B55;
+	background: url(../images/token-sale-bg.png) no-repeat scroll center 0 #1E453E;
 }
 
 .tokensale-part .tokensale-detail ul li {
@@ -950,7 +957,7 @@ _______________________________________________________*/
 	float: right;
 }
 .donut {
-	color: #465B55;
+	color: #1E453E;
 }
 
 .graph-logo {
@@ -1075,7 +1082,7 @@ _______________________________________________________*/
 
 /* Our Team css strat */
 .team-part {
-	background: url(../images/team-bg.png) no-repeat scroll center center #465B55;
+	background: url(../images/team-bg.png) no-repeat scroll center center #192B25;
 }
 
 .team-box {
@@ -1097,7 +1104,7 @@ _______________________________________________________*/
 }
 
 .team-thumb {
-	border: 5px solid #465b55;
+	border: 5px solid #1E453E;
 	display: inline-block;
 	-webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -1131,7 +1138,7 @@ _______________________________________________________*/
 }
 
 .team-box .social-media ul li a i.fa {
-	color: #465b55;
+	color: #1E453E;
 	transition: all 0.4s ease 0s;
 	-moz-transition: all 0.4s ease 0s;
 	-webkit-transition: all 0.4s ease 0s;
@@ -1164,7 +1171,7 @@ _______________________________________________________*/
 	}
 
 	.faq-part .nav > li > a {
-		border: 2px solid #465b55;
+		border: 2px solid #1E453E;
 		background-color: transparent;
 	    display: block;
 	    padding: 10px 25px;
@@ -1180,8 +1187,8 @@ _______________________________________________________*/
 	}
 
 	.nav-tabs > li > a.selected, .nav-tabs > li > a.selected:hover, .nav-tabs > li > a.selected:focus {
-		border: 2px solid #465B55;
-	    background: #465B55;
+		border: 2px solid #1E453E;
+	    background: #1E453E;
 	    color: #fff !important;
 	}
 
@@ -1195,7 +1202,7 @@ _______________________________________________________*/
 	}
 	/* Tab CSS End */
 .accordion-box {
-	background: #465B55;
+	background: #1E453E;
 	padding: 25px;
 	margin-bottom: 20px;
 	-webkit-border-radius: 5px;
@@ -1229,7 +1236,7 @@ _______________________________________________________*/
 	right: 0;
 	height: 18px;
 	width: 18px;
-	background: url(../images/minus-icon.svg) no-repeat scroll 0 0 #00E8FE;
+	/* background: url(../images/minus-icon.svg) no-repeat scroll 0 0 #00E8FE; */
 	top: 4px;
 }
 
@@ -1249,7 +1256,7 @@ _______________________________________________________*/
 
 /* Contact css start */
 .contact-part {
-	background: url(../images/contact-bg.png) no-repeat scroll 0 0 #465B55;
+	background: url(../images/contact-bg.png) no-repeat scroll 0 0 #192B25;
 }
 .contact-box {
 	color: #fff;
@@ -1347,7 +1354,7 @@ _______________________________________________________*/
 	margin-bottom: 0;
 }
 .blog-part .sidebar .sidebar-default .searching input{
-	background: #465B55;
+	background: #1E453E;
 	color: #fff;
 	border:none;
 	border-radius: 5px;
@@ -1542,7 +1549,7 @@ ul.child-comment {
 
 .blog-detail-part .leave-comment-part{padding-top: 100px;}
 .blog-detail-part .leave-comment-part .form-group .form-control {
-	background: #465B55;
+	background: #1E453E;
 	color: #fff;
 	height: 50px;
 	border: none;
