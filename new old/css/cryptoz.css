@@ -37,24 +37,17 @@
 _______________________________________________________*/
 
 /* - Google Fonts //---------------- */
-/* @import url('https://fonts.googleapis.com/css?family=Rubik:300,400,700&display=swap'); */
-
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
-
-body {
-    font-family: "Chakra Petch", sans-serif;;
-}
-
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,700&display=swap');
 
 
 /* - General Style //---------------- */
 
 ::-moz-selection {
- background-color: #192B25;
+ background-color: #412394;
  color: #FFF;
 }
 ::selection {
-	background-color: #192B25;
+	background-color: #412394;
 	color: #FFF;
 }
 
@@ -68,11 +61,11 @@ body, html {
 	padding: 0;
 }
 body {
-	background: #192B25;
+	background: #4a28a9;
 	line-height: 24px;
 	color: #fff;
-	font-size: 18px;
-	font-family: "Chakra Petch", sans-serif;;
+	font-size: 14px;
+	font-family: 'Rubik', sans-serif;
 	font-weight: 400;
 	letter-spacing: 0px;
 }
@@ -311,28 +304,28 @@ h6 {
 
 .btn-black:hover {
 	color: #fff;
-	background: #1E453E;
+	background: #412394;
 }
 
 .btn-color {
 	color: #fff !important;
-	background: #1E453E;
+	background: #412394;
 	border: none;
 }
 
 .btn-color:hover {
 	color: #fff !important;
-	background: #1E453E;
+	background: #281266;
 }
 
 .btn-white {
-	color: #1E453E;
+	color: #3d1f94;
 	background: rgba(255,255,255,1);
 	border: none;
 }
 .btn-white:hover {
 	color: #fff;
-	background: #1E453E;
+	background: #331781;
 	display: inline-block;
 }
 
@@ -522,7 +515,7 @@ select {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #1E453E;
+    background-color: #412394;
     z-index: 9999;
 }
 
@@ -608,7 +601,7 @@ header {
 }
 
 header.header-fixed {
-	background: #1E453E;
+	background: #412394;
 	position: fixed;
 	top: 0;
 	padding: 25px 0;
@@ -675,7 +668,7 @@ _______________________________________________________*/
 }
 
 .main-banner{
-	background: url(../images/Bg1.jpeg) no-repeat scroll 0 0;
+	background: url(../images/banner-bg.jpg) no-repeat scroll 0 0;
 	position: relative;
 	overflow: hidden;
 }
@@ -768,7 +761,7 @@ _______________________________________________________*/
 }
 
 .services-box .frontend {
-	background: #1E453E;
+	background: #3d1f94;
     padding: 30px;
 	-webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -795,7 +788,7 @@ _______________________________________________________*/
 }
 
 .services-box .backend {
-	background: #1E453E;
+	background: #3d1f94;
     padding: 30px;
     position: absolute;
     top: 0;
@@ -864,7 +857,7 @@ _______________________________________________________*/
 
 /* About-part section start */
 .about-part {
-	background: #192B25;
+	background: #3d1f94;
 	overflow: hidden;
 }
 .aboutus-detail {
@@ -905,7 +898,7 @@ _______________________________________________________*/
 
 /* tokensale-part start */
 .tokensale-part {
-	background: url(../images/token-sale-bg.png) no-repeat scroll center 0 #1E453E;
+	background: url(../images/token-sale-bg.png) no-repeat scroll center 0 #3d1f94;
 }
 
 .tokensale-part .tokensale-detail ul li {
@@ -957,7 +950,7 @@ _______________________________________________________*/
 	float: right;
 }
 .donut {
-	color: #1E453E;
+	color: #3d1f94;
 }
 
 .graph-logo {
@@ -981,7 +974,7 @@ _______________________________________________________*/
 .h-border {
 	width: 100%; 
 	height: 4px; 
-	background: #1E453E;
+	background: #6c44db;
 	margin-top: 181px;
 }
 
@@ -992,7 +985,7 @@ _______________________________________________________*/
 }
 
 .small-round {
-	background: #1E453E;
+	background: #6c44db;
 	border: 3px solid #fff;
 	-webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -1020,7 +1013,7 @@ _______________________________________________________*/
 }
 
 .v-row {
-	background: #1E453E;
+	background: #6c44db;
 	height: 50px;
 	width: 4px;
 	position: relative;
@@ -1082,11 +1075,11 @@ _______________________________________________________*/
 
 /* Our Team css strat */
 .team-part {
-	background: url(../images/team-bg.png) no-repeat scroll center center #192B25;
+	background: url(../images/team-bg.png) no-repeat scroll center center #3d1f94;
 }
 
 .team-box {
-	background: #192B25;
+	background: #4a28a9;
 	padding: 45px 25px;
 	-webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -1100,11 +1093,11 @@ _______________________________________________________*/
 }
 
 .team-box:hover {
-	background: #1E453E;
+	background: #331781;
 }
 
 .team-thumb {
-	border: 5px solid #1E453E;
+	border: 5px solid #7149e2;
 	display: inline-block;
 	-webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -1138,7 +1131,7 @@ _______________________________________________________*/
 }
 
 .team-box .social-media ul li a i.fa {
-	color: #1E453E;
+	color: #784cf2;
 	transition: all 0.4s ease 0s;
 	-moz-transition: all 0.4s ease 0s;
 	-webkit-transition: all 0.4s ease 0s;
@@ -1171,7 +1164,7 @@ _______________________________________________________*/
 	}
 
 	.faq-part .nav > li > a {
-		border: 2px solid #1E453E;
+		border: 2px solid #7049df;
 		background-color: transparent;
 	    display: block;
 	    padding: 10px 25px;
@@ -1187,8 +1180,8 @@ _______________________________________________________*/
 	}
 
 	.nav-tabs > li > a.selected, .nav-tabs > li > a.selected:hover, .nav-tabs > li > a.selected:focus {
-		border: 2px solid #1E453E;
-	    background: #1E453E;
+		border: 2px solid #3d1f94;
+	    background: #3d1f94;
 	    color: #fff !important;
 	}
 
@@ -1202,7 +1195,7 @@ _______________________________________________________*/
 	}
 	/* Tab CSS End */
 .accordion-box {
-	background: #1E453E;
+	background: #3d1f94;
 	padding: 25px;
 	margin-bottom: 20px;
 	-webkit-border-radius: 5px;
@@ -1236,16 +1229,16 @@ _______________________________________________________*/
 	right: 0;
 	height: 18px;
 	width: 18px;
-	/* background: url(../images/minus-icon.svg) no-repeat scroll 0 0 #00E8FE; */
+	background: url(../images/minus-icon.svg) no-repeat scroll 0 0;
 	top: 4px;
 }
 
 .accordion-box h3 a.collapsed:after {
-	background: url(../images/plus-icon.svg) no-repeat scroll 0 0 #00E8FE;
+	background: url(../images/plus-icon.svg) no-repeat scroll 0 0;
 }
 
 .accordion-box > .collapse, .accordion-box > .collapsing {
-	color: #00E8FE;
+	color: #7e5ed7;
 	margin-top: 12px;
 }
 
@@ -1256,7 +1249,7 @@ _______________________________________________________*/
 
 /* Contact css start */
 .contact-part {
-	background: url(../images/contact-bg.png) no-repeat scroll 0 0 #192B25;
+	background: url(../images/contact-bg.png) no-repeat scroll 0 0 #3d1f94;
 }
 .contact-box {
 	color: #fff;
@@ -1265,7 +1258,7 @@ _______________________________________________________*/
 }
 
 .contact-box ul li {
-	border-bottom: 1px solid #192B25;
+	border-bottom: 1px solid #4a28a9;
 	margin-bottom: 30px;
 	padding-bottom: 30px;
 }
@@ -1293,7 +1286,7 @@ _______________________________________________________*/
 }
 
 .contact-part .form-detail .form-control{
-	background: #192B25;
+	background: #4a28a9;
 	border: none;
 	height: 50px;color: #fff;padding-left: 15px;
 }
@@ -1310,7 +1303,7 @@ _______________________________________________________*/
 /* .contact-part .form-detail .form-control:-ms-input-placeholder, 
 .contact-part .form-detail .form-control:-moz-placeholder,  */
 .contact-part .form-detail .form-control::-webkit-input-placeholder{
-	color:#00E8FE;
+	color:#977ae9;
 	font-size: 14px;
 }
 .contact-part .form-detail .col-md{margin-bottom: 30px;}
@@ -1338,14 +1331,14 @@ _______________________________________________________*/
 
 .navbar.header.inner{background-color: #fff;padding: 30px 0px;}
 .inner-banner-part .inner-banner-content .head-one{font-size: 45px;font-weight: 700;}
-.blog-part .blog-detail {background-color: #00E8FE;padding: 30px;}
+.blog-part .blog-detail {background-color: #5730c7;padding: 30px;}
 .blog-part .blog-detail .bloger-date {margin-bottom: 5px;}
 .bloger-date {
-	color: #00E8FE;
+	color: #b39df4;
 }
 .blog-part .blog-detail .bloger-date span {margin: 0 7px;}
 .blog-part .blog-detail .head-three a{color: #fff;font-size: 18px;}
-.blog-part .blog-content .head-three a:hover{color: #00E8FE;}
+.blog-part .blog-content .head-three a:hover{color: #9c79ff;}
 .blog-part .sidebar .sidebar-default{
 	margin-bottom: 30px;
 	width: 100%;
@@ -1354,7 +1347,7 @@ _______________________________________________________*/
 	margin-bottom: 0;
 }
 .blog-part .sidebar .sidebar-default .searching input{
-	background: #1E453E;
+	background: #3d1f94;
 	color: #fff;
 	border:none;
 	border-radius: 5px;
@@ -1371,7 +1364,7 @@ _______________________________________________________*/
 /* .blog-part .sidebar .sidebar-default .searching input:-ms-input-placeholder, 
 .blog-part .sidebar .sidebar-default .searching input:-moz-placeholder,  */
 .blog-part .sidebar .sidebar-default .searching input::-webkit-input-placeholder { 
-	color: #00E8FE;
+	color: #977ae9;
 	opacity: 1;
 }
 .blog-part .sidebar .sidebar-default .searching i{padding: 21px;color:#fff;font-size: 18px;}
@@ -1382,7 +1375,7 @@ _______________________________________________________*/
 .blog-part .sidebar .sidebar-category li {padding: 4px 0;}
 .blog-part .sidebar .sidebar-category li a {display: inline-block;width: 100%;}
 .blog-part .sidebar .recent-post .recent{
-	border-bottom: 1px solid #00E8FE;
+	border-bottom: 1px solid #6137d9;
 	display: inline-block; 
 	margin-bottom: 20px;
 	padding-bottom: 20px;
@@ -1409,13 +1402,13 @@ _______________________________________________________*/
 .blog-part .sidebar .sidebar-default .tags-grp ul li {display: inline-block;margin: 5px;}
 .blog-part .sidebar .sidebar-default .tags-grp a{
 	color: #fff;
-	background-color: #192B25;
-	border:1px solid #1E453E;
+	background-color: #4a28a9;
+	border:1px solid #734be3;
 	display: inline-block;
 	padding: 6px 20px;
 	font-weight: 400;
 }
-.blog-part .sidebar .sidebar-default .tags-grp a:hover{background-color: #1E453E;border-color: #1E453E;color: #fff!important;}
+.blog-part .sidebar .sidebar-default .tags-grp a:hover{background-color: #412394;border-color: #412394;color: #fff!important;}
 .blog-part .sidebar .sidebar-default .searching {position: relative;}
 .blog-part .sidebar .sidebar-default .searching a {
 	position: absolute;
@@ -1448,7 +1441,7 @@ _______________________________________________________*/
 .page-number .pagination li:last-child .page-link {
 	margin-right: 0;
 }
-.page-number .pagination .page-link.active,.page-number .pagination .page-link:hover{background-color:#1E453E;color:#fff!important;border-color: #1E453E;}
+.page-number .pagination .page-link.active,.page-number .pagination .page-link:hover{background-color:#412394;color:#fff!important;border-color: #412394;}
 .page-item:first-child .page-link,.page-item:last-child .page-link{
 	border-radius:0px !important;
 	-moz-border-radius: 0px !important;
@@ -1471,7 +1464,7 @@ _______________________________________________________*/
 .blog-part.detail .blog-img{width: 100%;}
 .blog-detail-part .blog-detail .head-two{font-size: 24px;line-height: 30px;}
 .blog-detail-part .blog-detail .blog-detail-inner p{color: #b39df4;line-height: 25px;}
-.blog-detail-part .blog-detail .tag-text{background-color: #fff;border-left:4px solid #192B25;padding: 17px 23px;font-size: 18px;color: #192B25;}
+.blog-detail-part .blog-detail .tag-text{background-color: #fff;border-left:4px solid #4a28a9;padding: 17px 23px;font-size: 18px;color: #4a28a9;}
 .blog-detail-part .blog-detail .tag-social{margin-top: 30px;}
 .blog-detail-part .small-title {
 	font-size: 15px;
@@ -1489,7 +1482,7 @@ _______________________________________________________*/
 	font-size: 15px;
 	margin: 0px 2px;}
 .blog-detail-part .blog-detail .social-icon  a:hover .fa{
-	color: #00E8FE;
+	color: #9c79ff;
 }
 .blog-detail-part .blog-detail .line{
 	height: 1px;
@@ -1507,7 +1500,7 @@ ul.child-comment {
 }
 
 .comment-list > li {
-    border-top: 1px solid #192B25;
+    border-top: 1px solid #4a28a9;
     padding-top: 20px;
     margin-top: 20px;
     position: relative;
@@ -1549,7 +1542,7 @@ ul.child-comment {
 
 .blog-detail-part .leave-comment-part{padding-top: 100px;}
 .blog-detail-part .leave-comment-part .form-group .form-control {
-	background: #1E453E;
+	background: #3d1f94;
 	color: #fff;
 	height: 50px;
 	border: none;
