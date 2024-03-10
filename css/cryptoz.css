@@ -1110,12 +1110,18 @@ _______________________________________________________*/
     -moz-border-radius: 50%;
     -o-border-radius: 50%;
     border-radius: 50%;
-    overflow: hidden;
+	width: 150px; /* Adjust the width as per your requirement */
+    height: 150px; /* Adjust the height as per your requirement */
+    border-radius: 50%; /* Ensures the container is a circle */
+    overflow: hidden; /* Hides any overflow beyond the circle */
+    position: relative;
 }
 
 .team-box .team-thumb img {
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   	filter: grayscale(100%);
+	
+
 }
 
 .team-box:hover .team-thumb img {
