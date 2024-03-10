@@ -675,7 +675,7 @@ _______________________________________________________*/
 }
 
 .main-banner{
-	background: url(../images/Bg1.jpeg) no-repeat scroll 0 0;
+	/* background: url(../images/Bg1.jpeg) no-repeat scroll 0 0; */
 	position: relative;
 	overflow: hidden;
 }
@@ -1120,6 +1120,7 @@ _______________________________________________________*/
 .team-box .team-thumb img {
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   	filter: grayscale(100%);
+
 	
 
 }
