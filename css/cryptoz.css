@@ -1212,6 +1212,7 @@ _______________________________________________________*/
 .accordion-box {
 	background: #1E453E;
 	padding: 25px;
+	text-align: justify;
 	margin-bottom: 20px;
 	-webkit-border-radius: 5px;
     -moz-border-radius: 5px;
