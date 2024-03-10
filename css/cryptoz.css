@@ -718,6 +718,7 @@ _______________________________________________________*/
 
 .banner-detail .banner-detail-inner .banner-title {
 	color: #fff;
+	text-align: left;
     font-size: 40px;
     line-height: 60px;
     letter-spacing: 0px;
@@ -725,7 +726,7 @@ _______________________________________________________*/
     text-transform: uppercase;
 }
 
-.banner-detail .banner-detail-inner .banner-title span {
+.banner-detail .banner-detail-inner .banner-title span p {
 	font-weight: 400;
 }
 
