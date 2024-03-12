@@ -23,42 +23,7 @@ $(function() {
 
     }
 
-  /*index : Roadmap slider*/
-    if ($("#roadmap-slider").length > 0) {
-        $("#roadmap-slider").owlCarousel({
-            //loop: true,
-            autoplay: false,
-            dots: true,
-            nav: true,
-            responsiveClass: true,
-            responsive: {
-                0: {
-                    items: 1,
-                    loop: true,
-                    nav: false
-                },
-                420: {
-                    items: 2,
-                    loop: true,
-                    nav: false,
-                    margin: 0
-                },
-                767: {
-                    items: 3,
-                    loop: true,
-                    nav: false,
-                    margin: 0
-                },
-                1200: {
-                    items: 4,
-                    loop: true,
-                    nav: false,
-                    margin: 0
-                },
-            }
-        });
-    }
-    /*end Roadmap slider*/
+
 
     /*click to scroll menu*/
     $('[data-scroll]').on('click', function(event) {
@@ -81,29 +46,7 @@ $(function() {
         });
     }
 
-    function tokan_graph () {
-        var scrollDistance = $(window).scrollTop();
-        var scrollDistance1 = $('#tokensale-part').offset().top - 100;
-		console.log(scrollDistance+'--'+scrollDistance1)
-        if ( scrollDistance >= (scrollDistance1 - 100)) {
-            $('.donut').listtopie({
-              startAngle:270,
-              strokeWidth:5,
-                hoverEvent:true,
-                hoverBorderColor:'#6239d7',
-                hoverAnimate:false,
-                drawType:'round',
-                speedDraw:150,
-                hoverColor:'#ffffff',
-                textColor:'#3d1f94',
-                strokeColor:'#3d1f94',
-                textSize:'18',
-                hoverAnimate:true,
-                marginCenter:85,
-            });
-        }
-    }
-
+   
     /* menu overlay start */
     $(".navbar-toggle").on("click", function() {
         if (!$(".navbar-collapse").hasClass("menu-open")){
@@ -129,16 +72,6 @@ $(function() {
     });
     /* menu overlay end */
 
-    $(window).on('scroll', function(){
-		/*index : header animation*/
-		if ($(this).scrollTop() > 0) {
-            $("header").addClass("header-fixed");
-        } else {
-            $("header").removeClass("header-fixed");
-        }
-		/*end index : header animation*/
-        tokan_graph();
-    })
 
 
 	$( window ).on('resize', function(){
@@ -171,9 +104,5 @@ $(window).on("load", function() {
     /* -------- preloader ------- */
     $('#preloader').delay(2000).fadeOut(500);
     /*------End----------*/
-
-  $(".token-graph").addClass("token-graph-right");
-
-  w = $( window ).width();
   
 });
