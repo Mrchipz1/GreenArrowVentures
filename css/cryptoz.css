@@ -1144,7 +1144,7 @@ _______________________________________________________*/
 
 .team-box {
 	background: #192B25;
-	padding: 45px 25px;
+	/* padding: 45px 25px; */
 	-webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -o-border-radius: 5px;
@@ -1162,14 +1162,14 @@ _______________________________________________________*/
 
 .team-thumb {
 	border: 5px solid #1E453E;
-	display: inline-block;
+	/* display: inline-block; */
 	-webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -o-border-radius: 50%;
     border-radius: 50%;
-	width: 150px; /* Adjust the width as per your requirement */
-    height: 150px; /* Adjust the height as per your requirement */
-    border-radius: 50%; /* Ensures the container is a circle */
+	/* width: 150px; Adjust the width as per your requirement */
+    /* height: 150px; Adjust the height as per your requirement */
+    border-radius: 100%; /* Ensures the container is a circle */
     overflow: hidden; /* Hides any overflow beyond the circle */
     position: relative;
 }
