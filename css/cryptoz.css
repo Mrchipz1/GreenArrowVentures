@@ -46,6 +46,17 @@ body {
 }
 
 /* - logo slider Style   //---------------- */
+
+.project {
+	display: grid;
+	grid-template-columns: repeat( auto-fill, minmax(12em, 1fr) );
+	grid-gap: 2em;
+  }
+  
+  .column {
+	min-width: 50px;
+	min-height: 50px;
+  }
 #ourclients {
 	display: block;
 	margin-left: auto;

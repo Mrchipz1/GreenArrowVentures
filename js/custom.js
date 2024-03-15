@@ -94,7 +94,7 @@ $(function() {
             var $first = $('#clientlogo li:first');
             $first.animate({
               'margin-left': '-220px'
-            }, 1500, function() {
+            }, 0, function() {
               $first.remove().css({
                 'margin-left': '0px'
               });
